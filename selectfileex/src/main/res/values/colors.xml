@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorMain">#fb7299</color>
+    <color name="white">#FFFFFF</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="selected">#FF4081</color>
+    <color name="light_semi">#10808080</color>
+    <color name="gray">#F5F5F5</color>
+    <color name="line_item">#F7F7F7</color>
+    <color name="line">#C8C8CB</color>
+    <color name="h1">#333333</color>
+    <color name="h2">#4D4D4D</color>
+    <color name="content">#808080</color>
+    <color name="prompt">#9A9A9A</color>
+    <color name="normal">#3F8CEF</color>
+    <color name="them">#3F51B5</color>
+    <color name="black">#000000</color>
+
+</resources>

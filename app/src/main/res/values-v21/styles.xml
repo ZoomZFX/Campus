@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/color_main</item>
+        <!--
+        下面这个句会导致状态栏和标题栏合并在一起,解决方案确是给toolbar加上一个padding-top="25dp"
+        <item name="android:windowTranslucentStatus">true</item>
+        -->
+    </style>
+</resources>

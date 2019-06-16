@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SelectFileEx</string>
+    <string name="select_picture">选择图片</string>
+    <string name="select_video">选择视频</string>
+    <string name="select_file">选择文件</string>
+    <string name="cancel">取消</string>
+    <string name="determine">确定</string>
+    <string name="delete">删除</string>
+    <string name="no_file">没有文件</string>
+    <string name="audio_recorder">录音</string>
+    <string name="finish">完成</string>
+    <string name="prompt">提示</string>
+    <string name="setting_to">前往设置</string>
+    <string name="cancel_next">下次再说</string>
+    <string name="prompt_permission">您拒绝了该项功能所需权限的申请，将不能使用该功能，如您需要使用，请前往设置或安全中心开启权限后重新操作</string>
+
+</resources>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.campus.MineActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_base" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_userImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="@string/user_image"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:id="@+id/rv_userImage"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray"></View>
+
+
+                    <!--<RelativeLayout-->
+                        <!--android:id="@+id/rl_userId"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="58dp"-->
+                        <!--android:background="@color/white"-->
+                        <!--android:clickable="true"-->
+                        <!--android:foreground="?attr/selectableItemBackground"-->
+                        <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+                        <!--android:paddingRight="@dimen/activity_horizontal_margin">-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_centerVertical="true"-->
+                            <!--android:text="@string/user_id"-->
+                            <!--android:textColor="@color/black"-->
+                            <!--android:textSize="14sp" />-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/tv_userId"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_alignParentRight="true"-->
+                            <!--android:layout_centerVertical="true"-->
+                            <!--android:textColor="@color/black80"-->
+                            <!--android:textSize="14sp" />-->
+                    <!--</RelativeLayout>-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray"></View>
+                    <RelativeLayout
+                        android:id="@+id/rl_userNickName"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="@string/user_name"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tv_userNickName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:textColor="@color/black80"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray"></View>
+
+                    <!--<RelativeLayout-->
+                        <!--android:id="@+id/rl_userLevel"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="58dp"-->
+                        <!--android:background="@color/white"-->
+                        <!--android:clickable="true"-->
+                        <!--android:foreground="?attr/selectableItemBackground"-->
+                        <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+                        <!--android:paddingRight="@dimen/activity_horizontal_margin">-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_centerVertical="true"-->
+                            <!--android:text="@string/user_level"-->
+                            <!--android:textColor="@color/black"-->
+                            <!--android:textSize="14sp" />-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/tv_userLevel"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_alignParentRight="true"-->
+                            <!--android:layout_centerVertical="true"-->
+                            <!--android:text="Lv1 (65/128)"-->
+                            <!--android:textColor="@color/black80"-->
+                            <!--android:textSize="14sp" />-->
+                    <!--</RelativeLayout>-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray"></View>
+
+                    <!--<RelativeLayout-->
+                        <!--android:id="@+id/rl_userPro"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="58dp"-->
+                        <!--android:background="@color/white"-->
+                        <!--android:clickable="true"-->
+                        <!--android:foreground="?attr/selectableItemBackground"-->
+                        <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+                        <!--android:paddingRight="@dimen/activity_horizontal_margin">-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_centerVertical="true"-->
+                            <!--android:text="@string/user_pro"-->
+                            <!--android:textColor="@color/black"-->
+                            <!--android:textSize="14sp" />-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/tv_userPro"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_alignParentRight="true"-->
+                            <!--android:layout_centerVertical="true"-->
+                            <!--android:text="花瓣"-->
+                            <!--android:textColor="@color/black80"-->
+                            <!--android:textSize="14sp" />-->
+                    <!--</RelativeLayout>-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray"></View>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_userSex"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="@string/user_sex"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tv_userSex"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="保密"
+                            android:textColor="@color/black80"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray"></View>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_userSignature"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="@string/user_signature"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tv_userSignature"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="@string/signature"
+                            android:textColor="@color/black80"
+                            android:textSize="14sp" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray"></View>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_userRegisterDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="@string/user_register_date"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tv_userRegisterDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="2017-10-20 14:19"
+                            android:textColor="@color/black80"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_school_calendar"
+            android:icon="@drawable/school_calendar"
+            android:title="@string/school_calendar" />
+        <item
+            android:id="@+id/nav_grade"
+            android:icon="@drawable/school_grade"
+            android:title="@string/school_grade" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/school_schedule"
+            android:title="@string/school_schedule" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/gallery"
+            android:title="@string/gallery" />
+
+        <item
+            android:id="@+id/nav_campus_navigation"
+            android:icon="@drawable/navignation"
+            android:title="@string/campus_navigation" />
+        <item
+            android:id="@+id/nav_bus"
+            android:icon="@drawable/bus"
+            android:title="@string/bus" />
+
+        <item android:title="@string/social_app">
+            <menu>
+                <item
+                    android:id="@+id/nav_weibo"
+                    android:icon="@drawable/weibo"
+                    android:title="@string/weibo" />
+                <item
+                    android:id="@+id/nav_tieba"
+                    android:icon="@drawable/tieba"
+                    android:title="@string/tieba" />
+            <!--</menu>-->
+        <!--</item>-->
+        <!--<item android:title="@string/tools">-->
+            <!--<menu>-->
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_menu_about"
+                    android:title="@string/about" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_menu_logout"
+                    android:title="@string/logout" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

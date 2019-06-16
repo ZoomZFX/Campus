@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/xl_1"
+        android:orderInCategory="50"
+        android:title="18-19年第一学期"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/xl_2"
+        android:orderInCategory="50"
+        android:title="18-19年第二学期"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,42 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+
+    repositories {
+        mavenCentral()
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.0'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        maven {
+            url "https://raw.github.com/bmob/bmob-android-sdk/master"
+        }
+        maven{
+            url 'http://dl.bintray.com/dev-fingerlinks/maven'
+//            url 'https://dl.bintray.com/linchuan/maven/'
+        }
+        maven {
+            url "https://jitpack.io"
+        }
+        maven {
+            url 'https://maven.google.com'
+        }
+        mavenCentral()
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

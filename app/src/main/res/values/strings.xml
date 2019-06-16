@@ -1,0 +1,219 @@
+<resources>
+    <string name="app_name">Campus</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="prompt">提示</string>
+    <string name="close_click_again">再次点击退出应用</string>
+    <string name="networkConnError">服务器连接失败，请检查您的网络</string>
+    <string name="unknown_error">未知错误</string>
+    <string name="i_kown">我知道了</string>
+    <string name="login">登录</string>
+    <string name="logout">退出登录</string>
+    <string name="link_start">登录</string>
+    <string name="login_successful">登录成功</string>
+    <string name="login_error">登录失败</string>
+    <string name="login_error_name_or_password_incorrect">用户名或密码错误</string>
+    <string name="registerAccount">注册</string>
+    <string name="prompt_userName">用户名</string>
+    <string name="prompt_password">密  码</string>
+    <string name="prompt_password_confirm">请再输入一次密码</string>
+    <string name="register">注册</string>
+    <string name="mine">个人资料</string>
+    <string name="please_input_user_name">请输入账号</string>
+    <string name="please_input_password">请输入密码</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="join_us">注册</string>
+    <string name="user_name_is_not_empty">用户名不能为空</string>
+    <string name="password_old">旧&#160;&#160;密&#160;&#160;码</string>
+    <string name="password_new">新&#160;&#160;密&#160;&#160;码</string>
+    <string name="password_confirm">确认密码</string>
+    <string name="password_old_please">请输入您的旧密码</string>
+    <string name="password_new_please">请输入您的新密码</string>
+    <string name="password_confirm_please">请再次输入您的新密码</string>
+    <string name="password_old_different">旧密码输入错误</string>
+    <string name="password_new_different">两次输入的新密码不一致</string>
+    <string name="password_reset_successful">密码修改成功</string>
+    <string name="password_reset_error">密码修改失败</string>
+    <string name="register_ok">注册成功，请牢记您的用户名和密码</string>
+    <string name="register_error_user_already_taken">注册失败，用户名已存在</string>
+    <string name="register_error">注册失败</string>
+    <string name="error_register_invalid_name">昵称在3-10字符之间，且不能包含空格、\'等特殊符号</string>
+    <string name="error_register_invalid_password">密码在6-16字符之间，且不能包含空格、\'等特殊符号</string>
+    <string name="error_register_invalid_confirm_password">两次密码不一致</string>
+    <string name="show_password">显示密码</string>
+    <string name="click_user_image">点击头像登录</string>
+    <string name="logout_success">登出成功</string>
+    <string name="signature">云上的日子你我共享</string>
+    <string name="user_image">头像</string>
+    <string name="user_id">ID</string>
+    <string name="user_role">角色</string>
+    <string name="user_student_ID">学号</string>
+    <string name="user_sex">性别</string>
+    <string name="user_signature">个性签名</string>
+    <string name="user_pro">头衔</string>
+    <string name="user_level">等级</string>
+    <string name="user_register_date">注册时间</string>
+    <string name="loading">正在加载...</string>
+    <string name="loading_login">正在登录...</string>
+    <string name="loading_delete">正在删除...</string>
+    <string name="delete_successful">删除成功</string>
+    <string name="clean_successful">清理完成！</string>
+    <string name="load_all">已加载全部</string>
+    <string name="delete">删除</string>
+    <string name="comfirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="token_exp">token已过期，请重新登录</string>
+    <string name="update_complete">更新完成</string>
+    <string name="update_error">更新失败</string>
+    <string name="crop_pick_error">图片资源缺失</string>
+
+    <string name="setting_to">前往设置</string>
+    <string name="cancel_next">下次再说</string>
+    <string name="prompt_permission">您拒绝了该项功能所需权限的申请，将不能使用该功能，如您需要使用，请前往设置或安全中心开启权限后重新操作</string>
+    <string name="all_notices">查看全部通知</string>
+    <string name="permission">Copyright © 2019 ZoomX. All Rights Reserved.</string>
+    <string name="notice">通知</string>
+    <string name="note">请注意查看</string>
+    <string name="bus">公交出行</string>
+    <string name="gallery">校园风光</string>
+    <string name="campus_navigation">校园导航</string>
+    <string name="add_course">添加课程</string>
+    <string name="course_table">课程表</string>
+    <string name="campus_gallery">校园风光</string>
+    <string name="school_news">校园风光</string>
+    <string name="official_weibo">官方微博</string>
+    <string name="splash_text">掌上校园</string>
+    <string name="gpslocate">定位</string>
+    <string name="gpsfollow">追随</string>
+    <string name="gpsrotate">旋转</string>
+    <string name="about">关于版本</string>
+    <string name="title_activity_detail6">男生公寓6号楼</string>
+    <string name="title_activity_detail7">女生公寓7号楼</string>
+    <string name="title_activity_detail8">男生公寓4号楼</string>
+    <string name="title_activity_detail9">女生公寓1号楼</string>
+    <string name="title_activity_detail10">食堂</string>
+    <string name="title_activity_detail11">综合教学楼</string>
+    <string name="title_activity_detail12">校门</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_config">ConfigActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="school_calendar">校历</string>
+    <string name="weibo">新浪微博</string>
+    <string name="tieba">百度贴吧</string>
+    <string name="social_app">Social App</string>
+    <string name="tools">Tools</string>
+    <string name="course">课程名称</string>
+    <string name="grade">成绩</string>
+    <string name="allgrade">课程成绩</string>
+    <string name="user_name">用户名</string>
+    <string name="grade_query">成绩查询</string>
+    <string name="query_name">欢迎你，使用成绩查询!</string>
+    <string name="chaxun">查询</string>
+    <string name="password">密码</string>
+    <string name="stuid">学号</string>
+    <string name="course_name">课程名称</string>
+    <string name="news_1">图书馆开展消防安全专题培训活动(2019-05-27)</string>
+    <string name="news_2">艺术与设计学院产品设计专业作品入围北京故宫文创设计(2019-05-01)</string>
+    <string name="news_3">我校信息科学与工程学院举办“工程信息分析方法及应用”学术讲座——建校20周年校庆系列讲座 (2019-04-16)</string>
+    <string name="news_4">伯明翰城市大学教授到访我校艺术与设计学院进行学术交流(2019-04-04) </string>
+    <string name="news_5">我校信息科学与工程学院举办“ICT行业发展趋势及5G关键技术应用”学术讲座(2019-03-29)</string>
+    <string name="news_6">2018级本科新生入学报到(2018-09-12)</string>
+    <string name="school_grade">我的成绩</string>
+    <string name="school_schedule">课程表</string>
+    <string name="credit">学分</string>
+</resources>
