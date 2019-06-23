@@ -19,45 +19,41 @@
   > 涉及代码：MainActivity.java
   * 预览图使用的是学校的风景图，后台可更换图片url、数量、添加事件。
   <br><br>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/1.jpg"/>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/2.png"/>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/3.png"/>
+  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/4.png"/>
+  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/5.png"/>
   <br><br>
 
 * **成绩查询功能**
   > 涉及代码：MainActivity.java
   * 场景过度动画 可百度`Shared Element Transition`
   <br><br>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/1.jpg"/>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/2.png"/>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/3.png"/>
+  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/6.png"/>
+  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/7.png"/>
   <br><br>
 
 * **课程表功能**
   > 涉及代码：MainActivity.java
   * 场景过度动画 可百度`Shared Element Transition`
   <br><br>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/1.jpg"/>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/2.png"/>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/3.png"/>
+  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/8.png"/>
+  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/9.jpg"/>
   <br><br>
 
 * **校园风光**
   > 涉及代码：MainActivity.java
   * 场景过度动画 可百度`Shared Element Transition`
   <br><br>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/1.jpg"/>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/2.png"/>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/3.png"/>
+  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/10.png"/>
+  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/11.png"/>
+  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/12.png"/>
   <br><br>
 
 * **其他**
   > 涉及代码：MainActivity.java
   * 场景过度动画 可百度`Shared Element Transition`
   <br><br>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/1.jpg"/>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/2.png"/>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/3.png"/>
+  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/13.png"/>
+  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/14.png"/>
   <br><br>
 
 
