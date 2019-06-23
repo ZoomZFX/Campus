@@ -1,7 +1,7 @@
 # Campus
 
 <img width="125" height="125" src="https://github.com/ZoomZFX/Campus/blob/master/ic_launcher_foreground.png"/>
-毕业设计，实现用户功能、学生查成绩和课表功能等。
+2019本科生毕业设计
 基于Android平台，现已适配Android9.0系统。
 <br>
 
@@ -9,7 +9,7 @@
 ----
 * **主界面**
   > 涉及代码：MainActivity.java
-  * 预览图使用的是学校的风景图，后台可更换图片url、数量、添加事件。
+  * APP闪屏界面、主界面、侧边栏。
   <br><br>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/1.jpg"/>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/2.png"/>
@@ -18,7 +18,7 @@
 
 * **用户功能**
   > 涉及代码：MineActivity.java
-  * 预览图使用的是学校的风景图，后台可更换图片url、数量、添加事件。
+  * 用户注册登录APP，个人中心页面。
   <br><br>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/4.png"/>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/5.png"/>
@@ -26,7 +26,7 @@
 
 * **成绩查询功能**
   > 涉及代码：Grade.java
-  * 场景过度动画 可百度`Shared Element Transition`
+  * 查询登陆账户的成绩信息
   <br><br>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/6.png"/>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/7.png"/>
@@ -34,7 +34,7 @@
 
 * **课程表功能**
   > 涉及代码：CourseActivity.java
-  * 场景过度动画 可百度`Shared Element Transition`
+  * 可以添加删除课程信息
   <br><br>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/8.png"/>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/9.jpg"/>
@@ -42,7 +42,7 @@
 
 * **校园风光**
   > 涉及代码：CampusNewsActivity.java
-  * 场景过度动画 可百度`Shared Element Transition`
+  * 轮播图使用的是学校的风景图
   <br><br>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/10.png"/>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/11.png"/>
@@ -51,7 +51,7 @@
 
 * **其他**
   > 涉及代码：SchoolCalendarActivity.java  Detail6Activity.java
-  * 场景过度动画 可百度`Shared Element Transition`
+  * 学校日历 公寓楼介绍
   <br><br>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/13.png"/>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/14.png"/>
