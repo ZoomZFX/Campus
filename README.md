@@ -1,6 +1,6 @@
 # Campus
 
-<img width="125" height="125" src="https://github.com/ZoomZFX/Campus/blob/master/ic_launcher_foreground.png"/>
+<img width="150" height="150" src="https://github.com/ZoomZFX/Campus/blob/master/ic_launcher_foreground.png"/>
 2019本科生毕业设计
 基于Android平台，现已适配Android9.0系统。
 <br>
