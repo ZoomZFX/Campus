@@ -1,5 +1,5 @@
 # Campus
-====
+
 <img width="125" height="125" src="https://github.com/longer96/CDTU/blob/master/images/logo.png"/>
 大一时针对我校开发的校园客户端，方便学生查课表、成绩、一卡通消费记录、失物招领等等。遵循MD设计原则，数据大多通过抓包获取，现开源（已屏蔽学校相关信息，怕被请回去喝茶）
 <br>Ps：第一次这么认真写文章，有不合理的地方希望大家提出   --- 谢谢谢谢啦
