@@ -2,6 +2,7 @@
 
 <img width="125" height="125" src="https://github.com/ZoomZFX/Campus/blob/master/ic_launcher_foreground.png"/>
 毕业设计，实现用户功能、学生查成绩和课表功能等。
+基于Android平台，现已适配Android9.0系统。
 <br>
 
 实现功能
@@ -16,7 +17,7 @@
   <br><br>
 
 * **用户功能**
-  > 涉及代码：MainActivity.java
+  > 涉及代码：MineActivity.java
   * 预览图使用的是学校的风景图，后台可更换图片url、数量、添加事件。
   <br><br>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/4.png"/>
@@ -24,7 +25,7 @@
   <br><br>
 
 * **成绩查询功能**
-  > 涉及代码：MainActivity.java
+  > 涉及代码：Grade.java
   * 场景过度动画 可百度`Shared Element Transition`
   <br><br>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/6.png"/>
@@ -32,7 +33,7 @@
   <br><br>
 
 * **课程表功能**
-  > 涉及代码：MainActivity.java
+  > 涉及代码：CourseActivity.java
   * 场景过度动画 可百度`Shared Element Transition`
   <br><br>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/8.png"/>
@@ -40,7 +41,7 @@
   <br><br>
 
 * **校园风光**
-  > 涉及代码：MainActivity.java
+  > 涉及代码：CampusNewsActivity.java
   * 场景过度动画 可百度`Shared Element Transition`
   <br><br>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/10.png"/>
@@ -49,7 +50,7 @@
   <br><br>
 
 * **其他**
-  > 涉及代码：MainActivity.java
+  > 涉及代码：SchoolCalendarActivity.java  Detail6Activity.java
   * 场景过度动画 可百度`Shared Element Transition`
   <br><br>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/13.png"/>
