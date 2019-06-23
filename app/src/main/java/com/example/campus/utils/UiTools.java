@@ -11,9 +11,6 @@ import android.text.TextUtils;
 
 import com.example.campus.R;
 
-/**
- * Created by zbb on 2017/9/20.
- */
 
 public class UiTools {
     private static ProgressDialog mypDialog = null;

@@ -10,10 +10,6 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by zbb on 2017/5/2.
- */
-
 public class PermissionUtils {
 
     /**

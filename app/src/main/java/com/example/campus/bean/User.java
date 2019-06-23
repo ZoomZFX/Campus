@@ -7,9 +7,6 @@ import cn.bmob.v3.datatype.BmobDate;
 import cn.bmob.v3.datatype.BmobFile;
 import cn.bmob.v3.datatype.BmobPointer;
 
-/**
- * Created by snsoft on 2016/7/12.
- */
 public class User extends BmobUser {
 
     private String sex;//性别

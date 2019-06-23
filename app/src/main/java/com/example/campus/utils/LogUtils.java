@@ -2,10 +2,6 @@ package com.example.campus.utils;
 
 import android.util.Log;
 
-/**
- * Created by snsoft on 2016/12/16.
- */
-
 public class LogUtils {
 
     private static boolean showV = true;

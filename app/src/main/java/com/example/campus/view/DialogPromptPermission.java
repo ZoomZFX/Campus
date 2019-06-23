@@ -16,11 +16,6 @@ import android.widget.TextView;
 
 import com.example.campus.R;
 
-
-/**
- * Created by zbb on 2017/5/3.
- */
-
 public class DialogPromptPermission extends Dialog {
 
     private static final String TAG = "DialogPromptPermission";

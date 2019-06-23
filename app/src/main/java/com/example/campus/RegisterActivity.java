@@ -69,14 +69,10 @@ public class RegisterActivity extends BaseActivity {
         User user = new User();
         user.setUsername(name);
         user.setPassword(pwd);
-//        user.setLevel(1);
         user.setSex("保密");
         user.setSignature(getString(R.string.signature));
-//        user.setAbo("2B");
         user.setBirthday(new BmobDate(new Date()));
-//        user.setPronoun("一级萌新");
-//        user.setConstellation("天秤座");
-//        user.setLevelScore(1);
+		
         //提交注册
         user.signUp(new SaveListener<User>() {
             @Override

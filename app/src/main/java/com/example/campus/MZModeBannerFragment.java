@@ -17,10 +17,6 @@ import com.zhouwei.mzbanner.holder.MZViewHolder;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by zhouwei on 17/5/31.
- */
-
 public class MZModeBannerFragment extends Fragment {
     public static final String TAG = "MZModeBannerFragment";
     public static final int []RES = new int[]{R.mipmap.banner1,R.mipmap.banner2,R.mipmap.banner3,R.mipmap.banner4,R.mipmap.banner5,R.mipmap.banner6,R.mipmap.banner7};

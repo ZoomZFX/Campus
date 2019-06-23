@@ -157,37 +157,6 @@ public class MineActivity extends BaseActivity implements View.OnClickListener {
         adb.show();
     }
 
-
-
-//    private void editUserName() {
-//        AlertDialog.Builder adb = new AlertDialog.Builder(MineActivity.this);
-//        adb.setTitle(R.string.user_name);
-//        final EditText et = new EditText(MineActivity.this);
-//        if (Constant.user.getSignature() != null) {
-//            et.setText(Constant.user.getUsername());
-//        }
-//        adb.setView(et);
-//        adb.setNegativeButton(R.string.cancel,
-//                new DialogInterface.OnClickListener() {
-//
-//                    @Override
-//                    public void onClick(DialogInterface arg0,
-//                                        int arg1) {
-//                        arg0.cancel();
-//                    }
-//                });
-//        adb.setPositiveButton(R.string.comfirm,
-//                new DialogInterface.OnClickListener() {
-//
-//                    @Override
-//                    public void onClick(DialogInterface arg0,
-//                                        int arg1) {
-//                        tvUserNickName.setText(et.getText().toString());
-//                    }
-//                });
-//        adb.show();
-//    }
-
     private void editSignature() {
         AlertDialog.Builder adb = new AlertDialog.Builder(MineActivity.this);
         adb.setTitle(R.string.user_signature);
@@ -219,16 +188,8 @@ public class MineActivity extends BaseActivity implements View.OnClickListener {
 
     //初始化用户数据
     private void initData() {
-//        tvUserId.setText(Constant.user.getObjectId());
         tvUserNickName.setText(Constant.user.getUsername());
         tvUserSignature.setText(Constant.user.getSignature());
-//        Integer level = Constant.user.getLevel();
-//        if (level == null) {
-//            level = 0;
-//            Constant.user.setLevel(0);
-//        }
-//        tvUserLevel.setText("Lv" + level);
-//        tvUserPro.setText(Constant.user.getPronoun());
         tvUserRegisterDate.setText(Constant.user.getCreatedAt());
         File file = new File(AppUtils.getAvatarFilePath());
         if (file.exists()) {

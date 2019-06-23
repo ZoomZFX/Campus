@@ -6,10 +6,6 @@ import android.text.TextUtils;
 
 import com.example.campus.MyApplication;
 
-/**
- * Created by zbb on 2017/9/20.
- */
-
 public class AppUtils {
 
     private static String avatarFilePath = "";

@@ -139,87 +139,6 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-//        public void setpic() {
-//            mRollViewPager = (RollPagerView) view.findViewById(R.id.roll_view_pager);
-//            mRollViewPager.setAnimationDurtion(700);
-//            mRollViewPager.setAdapter(new TestNormalAdapter());
-//            mRollViewPager.setHintView(new ColorPointHintView(context, Color.parseColor("#f0FF4081"), Color.parseColor("#a0ffffff")));
-//
-//            menuPresenter.setHeadPic();
-//        }
-//
-//        @Override
-//        public void setHeadPic(List<PicHeadTip> list) {
-//            mRollViewPager.setAdapter(new Test_networkAdapter(list));
-//        }
-//
-//        @Override
-//        public void onDestroyView() {
-//            super.onDestroyView();
-//            ButterKnife.unbind(this);
-//        }
-//
-//
-//        private class TestNormalAdapter extends StaticPagerAdapter {
-//            private int[] imgs = {
-//                    R.mipmap.home_1,
-//                    R.mipmap.home_2,
-//                    R.mipmap.home_3,
-//                    R.mipmap.home_4
-//            };
-//
-//            @Override
-//            public View getView(ViewGroup container, final int position) {
-//                ImageView view = new ImageView(container.getContext());
-//                view.setImageResource(imgs[position]);
-//                view.setScaleType(ImageView.ScaleType.CENTER_CROP);
-//                view.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
-//                return view;
-//            }
-//
-//            @Override
-//            public int getCount() {
-//                return imgs.length;
-//            }
-//        }
-//
-//        private class Test_networkAdapter extends StaticPagerAdapter {
-//            private List<PicHeadTip> list;
-//
-//            public Test_networkAdapter(List<PicHeadTip> list) {
-//                this.list = list;
-//            }
-//
-//            private int[] imgs = {
-//                    R.mipmap.home_1,
-//                    R.mipmap.home_2,
-//                    R.mipmap.home_3,
-//                    R.mipmap.home_4,
-//                    R.mipmap.home_2,
-//                    R.mipmap.home_3
-//            };
-//
-//            @Override
-//            public View getView(ViewGroup container, final int position) {
-//                ImageView view = new ImageView(container.getContext());
-//                Glide.with(context).load(list.get(position).getUrl())
-//                        .centerCrop()
-//                        .placeholder(imgs[position])
-//                        .error(imgs[position])
-//                        .crossFade(1000) // 可设置时长，默认“300ms”
-//                        .into(view);
-//                view.setScaleType(ImageView.ScaleType.CENTER_CROP);
-//                view.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
-//                return view;
-//            }
-//
-//            @Override
-//            public int getCount() {
-//                return list.size() <= 4 ? 4 : list.size();
-//            }
-//        }
-
-
         initUI();
         rvAvatar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -480,22 +399,4 @@ public class MainActivity extends AppCompatActivity
     private void show(String msg){
         Toast.makeText(this,msg,Toast.LENGTH_LONG).show();
     }
-
-
-//    public void AddPointer(View view) {
-//            User user = new User();
-//            user.setUsername("15101236");
-//            Grade studentid = new Grade();
-//            studentid.setObjectId("uUACFFFj");
-//            user.setGrade(studentid);
-//            user.save(new SaveListener<String>() {
-//                @Override
-//                public void done(String s, BmobException e) {
-//                    if(e==null){
-//                        show(s);
-//                    }
-//                }
-//            });
-//            System.out.println("image click");
-//        }
 }
