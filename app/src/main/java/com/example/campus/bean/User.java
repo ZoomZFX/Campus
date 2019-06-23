@@ -10,10 +10,6 @@ import cn.bmob.v3.datatype.BmobPointer;
 public class User extends BmobUser {
 
     private String sex;//性别
-    //    private Integer level;//等级
-//    private String pronoun;//头衔
-//    private String constellation;//星座
-//    private String abo;//血型
     private String studentname;
     private String signature;//个性签名
     private BmobFile avatar;//头像
@@ -24,24 +20,6 @@ public class User extends BmobUser {
     public User() {
     }
 
-//    private Integer levelScore;//等级积分
-
-//    public Integer getLevelScore() {
-//        return levelScore;
-//    }
-//
-//    public void setLevelScore(Integer levelScore) {
-//        this.levelScore = levelScore;
-//    }
-//
-//    public String getPronoun() {
-//        return pronoun;
-//    }
-//
-//    public void setPronoun(String pronoun) {
-//        this.pronoun = pronoun;
-//    }
-
     public String getSex() {
         return sex;
     }
@@ -49,30 +27,6 @@ public class User extends BmobUser {
     public void setSex(String sex) {
         this.sex = sex;
     }
-
-//    public Integer getLevel() {
-//        return level;
-//    }
-//
-//    public void setLevel(Integer level) {
-//        this.level = level;
-//    }
-
-//    public String getConstellation() {
-//        return constellation;
-//    }
-//
-//    public void setConstellation(String constellation) {
-//        this.constellation = constellation;
-//    }
-
-//    public String getAbo() {
-//        return abo;
-//    }
-//
-//    public void setAbo(String abo) {
-//        this.abo = abo;
-//    }
 
     public String getSignature() {
         return signature;
@@ -105,15 +59,4 @@ public class User extends BmobUser {
     public void setStudentname(String studentname) {
         this.studentname = studentname;
     }
-
-//    public BmobPointer getStudentid(){
-//        return studentid;
-//    }
-//    public void setStudentid(BmobPointer studengid){
-//        this.studentid = studentid;
-//    }
-//
-//    public void setGrade(Grade studentid) {
-//
-//    }
 }
