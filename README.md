@@ -10,8 +10,8 @@
   > 涉及代码：MainActivity.java
   <br><br>
   <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/1.jpg"/>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/1.jpg"/>
-  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/3.jpg"/>
+  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/2.png"/>
+  <img width="200px" style="max-width:100%;" src="https://github.com/ZoomZFX/Campus/blob/master/3.png"/>
 <br><br>
 
 * **用户功能**
